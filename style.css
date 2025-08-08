@@ -1,0 +1,234 @@
+html,
+body {
+  border: 16px;
+  padding: 16px 8px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  color: #424153;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.title h1 {
+  font-size: 40px;
+  line-height: 120%;
+  width: 536px;
+  height: 96px;
+  margin: 0;
+  text-align: center;
+}
+
+.property {
+  display: flex;
+  padding: 16px 8px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+}
+
+.child .row {
+  justify-content: space-between;
+}
+
+.center-image {
+  display: block;
+}
+
+.feature {
+  display: flex;
+  margin: 16px 0;
+  max-width: 370px;
+}
+
+.feature-text h2 {
+  margin: 0 0 4px 50px;
+  font-size: 19px;
+}
+
+.feature-text h3 {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  flex-direction: column;
+}
+
+.cta-button {
+  background-color: #ee6f4b;
+  border-radius: 6px;
+  width: 460px;
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 12px 40px 12px 40px;
+}
+
+.payment-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.payment-logos h4 {
+  font-size: 13px;
+  font-weight: normal;
+  color: #424153;
+}
+
+.payment-logos img {
+  width: 40px;
+  height: auto;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  min-height: 500px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  background: #f8f8f8;
+}
+
+.section-2 .box {
+  flex: 0 0 50%;
+  max-width: 50%;
+  height: auto;
+  display: flex;
+}
+
+.section-2 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+
+.section-2 .text p {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 120%;
+  margin: 10px 0;
+}
+
+.section-2 .text h5 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 120%;
+  color: #424153;
+  margin: 0;
+}
+
+.section-2 .text h3 {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.section-2 .text ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.section-2 .text ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section-2 .text ul li h4.percentage {
+  color: #ee6f4b;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 10px;
+  align-self: flex-start;
+  margin-top: 0;
+}
+
+.section-2 .text ul li h4 {
+  font-weight: normal;
+  color: #424153;
+  line-height: 1.3;
+  align-self: flex-start;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section-2 .text .cta-button {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.section-2 .box img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-3 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section-3 .top,
+.section-3 .bottom {
+  flex: 0 0 50%;
+  margin: 40px 0;
+  height: auto;
+  display: flex;
+}
+
+.section-3 img {
+  max-width: 50%;
+}
+
+.section-3 .text {
+  padding: 16px;
+  max-width: 50%;
+}
+
+.section-3 .text h3 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.section-3 .text h5 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 120%;
+  color: #424153;
+}
